@@ -9,6 +9,7 @@ book:
   note: "This is a preprint; The final article is available at in the Oxford Research Encyclopedia of Neuroscience: https://oxfordre.com/neuroscience "
   chapters:
     - index.qmd
+    - Introduction.qmd
     - Background.qmd
     - Induction.qmd
     - Encoding.qmd
