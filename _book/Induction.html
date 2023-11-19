@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Transcriptional Regulation Underlying Long-term Sensitization in Aplysia - 3&nbsp; Induction: Why do only some experiences activate transcription to encode long-term sensitization memories?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Encoding.html" rel="next">
+<link href="./Background.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Induction.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Induction: Why do only some experiences activate transcription to encode long-term sensitization memories?</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Transcriptional Regulation Underlying Long-term Sensitization in Aplysia</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Abstract</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Background: Sensitization Memory in <em>Aplysia</em></span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Induction.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Induction: Why do only some experiences activate transcription to encode long-term sensitization memories?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Encoding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Encoding: What are the transcriptional changes induced by long-term sensitization training?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Maintenance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Maintenance: Does transcription contribute to the long-term maintenance of sensitization memory?</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Conclusions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Conclusions and Future Directions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#long-term-sensitization-induction-depends-on-synchronized-activation-of-two-nuclear-signaling-pathways" id="toc-long-term-sensitization-induction-depends-on-synchronized-activation-of-two-nuclear-signaling-pathways" class="nav-link active" data-scroll-target="#long-term-sensitization-induction-depends-on-synchronized-activation-of-two-nuclear-signaling-pathways"><span class="header-section-number">3.1</span> Long-Term Sensitization Induction Depends on Synchronized Activation of Two Nuclear Signaling Pathways</a></li>
+  <li><a href="#serotonin-produces-rapid-but-transient-activation-of-pka-that-is-stabilized-and-extended-by-repeated-exposure" id="toc-serotonin-produces-rapid-but-transient-activation-of-pka-that-is-stabilized-and-extended-by-repeated-exposure" class="nav-link" data-scroll-target="#serotonin-produces-rapid-but-transient-activation-of-pka-that-is-stabilized-and-extended-by-repeated-exposure"><span class="header-section-number">3.2</span> Serotonin produces rapid but transient activation of PKA that is stabilized and extended by repeated exposure</a></li>
+  <li><a href="#serotonin-produces-a-complex-and-delayed-activation-of-erk-that-is-terminated-by-p38-mapk-activity-and-stabilized-by-repeated-exposure" id="toc-serotonin-produces-a-complex-and-delayed-activation-of-erk-that-is-terminated-by-p38-mapk-activity-and-stabilized-by-repeated-exposure" class="nav-link" data-scroll-target="#serotonin-produces-a-complex-and-delayed-activation-of-erk-that-is-terminated-by-p38-mapk-activity-and-stabilized-by-repeated-exposure"><span class="header-section-number">3.3</span> Serotonin produces a complex and delayed activation of ERK that is terminated by P38 MAPK activity and stabilized by repeated exposure</a></li>
+  <li><a href="#synchronization-of-pka-and-erk-activation-is-critical-for-the-induction-of-long-term-sensitization." id="toc-synchronization-of-pka-and-erk-activation-is-critical-for-the-induction-of-long-term-sensitization." class="nav-link" data-scroll-target="#synchronization-of-pka-and-erk-activation-is-critical-for-the-induction-of-long-term-sensitization."><span class="header-section-number">3.4</span> Synchronization of PKA and ERK activation is critical for the induction of long-term sensitization.</a></li>
+  <li><a href="#activation-of-creb1-and-de-activation-of-creb2-initiate-an-immediate-early-transcriptional-response-that-includes-up-regulation-of-cebp" id="toc-activation-of-creb1-and-de-activation-of-creb2-initiate-an-immediate-early-transcriptional-response-that-includes-up-regulation-of-cebp" class="nav-link" data-scroll-target="#activation-of-creb1-and-de-activation-of-creb2-initiate-an-immediate-early-transcriptional-response-that-includes-up-regulation-of-cebp"><span class="header-section-number">3.5</span> Activation of CREB1 and de-activation of CREB2 initiate an immediate-early transcriptional response that includes up-regulation of C/EBP</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Induction: Why do only some experiences activate transcription to encode long-term sensitization memories?</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Limited sensitization training (a single shock) produces only transient neural plasticity and a sensitization memory that rapidly decays.&nbsp; More extensive training (5 shocks) activates changes in neuronal transcription, produces long-lasting neural plasticity, and encodes a long-term sensitization memory. What mechanisms link long-term sensitization training to the activation of transcription, and how do these mechanisms discriminate between different training protocols?</p>
+<section id="long-term-sensitization-induction-depends-on-synchronized-activation-of-two-nuclear-signaling-pathways" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="long-term-sensitization-induction-depends-on-synchronized-activation-of-two-nuclear-signaling-pathways"><span class="header-section-number">3.1</span> Long-Term Sensitization Induction Depends on Synchronized Activation of Two Nuclear Signaling Pathways</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Picture5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption"><strong>Figure 5 – Simplified Model of the Induction and Stabilization of Long-Term Sensitization</strong>. In this “synchronization based” model, serotonin activates two entangled signaling pathways that regulate transcription, and the degree to which training synchronizes activation of these pathways determines if long-term sensitization is induced and stabilized. The “fast” pathway is serotonergic production of cyclic adenosine 3 monophosphate (cAMP), which promotes the separation of the regulatory and catalytic subunits of protein kinase A (PKA). The catalytic subunit of PKA (green) then can translocate to the nucleus to phosphorylate cAMP response-element binding protien (CREB1), promoting transcription of genes with CRE elements in their promoters through a partnership with creb-binding protein (CBP). The “slow” pathway involves serotonergic increases in neurosecretion of several signaling molecules, activating autoreceptors that promote phophorolytic activation of RAF, MEK, and then ERK. Phosphorylated ERK (red) can then translocate to the nucleus where it phosphorylates CREB2, relieving its constitutive repression of transcription. Activation of the slow pathway is sharply limited by parallel activation of p38, which works against the continued activation of ERK. Successful encoding of long-term training requires PKA activation of CREB1 at the same time that ERK is alleviating repression from CREB2. Thus, a single pulse of serotonin (top right) fails, because ERK activation develops after PKA activation has faded. Spaced training (bottom right) produces overlapping activation of PKA and ERK. This co-activation activates feedback loops that help extend and stabilize the transcriptional response (pathways marked in gray): 1) Rapid production of UCH helps break down the regulatory subunit of PKA, extending its activation, 2) the expression of c/EBP is stabilized by P38 phosphorylation of ELAV1, which protects c/EBP from rapid degradation by AUF, and 3) c/EBP activates further transcriptional changes via phosphorolytic activation by ERK and a binding partnership with the PKA-activated transcription factor AF. Activation time-courses come from simulations conducted with the computational model of long-term sensitization developed in <span class="citation" data-cites="liu2013">(<a href="references.html#ref-liu2013" role="doc-biblioref">R.-Y. Liu et al. 2013a</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Intensive study of the cellular models of sensitization has helped provide detailed answers to these questions.&nbsp; The consensus model that has emerged is that long-term sensitization requires activation of two inter-related signal-transduction pathways that regulate transcription, and that the effectiveness of different training protocols is based on the degree to which activation of these pathways is synchronized.&nbsp; Figure 5 provides an overview of this synchronization-based model of the induction of long-term sensitization:</p>
+<ul>
+<li><p>Noxious shock activates serotonergic neurons.&nbsp; The released serotonin activates metabotropic receptors expressed by <em>Aplysia</em> nociceptors, producing a complex local signal-transduction cascade that rapidly but transiently induces the physiological changes that help express short-term sensitization.&nbsp; This includes activation of calmodulin-dependent protein kinase (CamKII), protein kinase C (PKC), and the cyclic adensosine-3-monophasphate (cAMP) to protein kinase A (PKA) pathway <span class="citation" data-cites="byrne2015">(<a href="references.html#ref-byrne2015" role="doc-biblioref">Byrne and Robert 2015</a>)</span>.&nbsp;</p></li>
+<li><p>The impact of serotonergic modulation is not only local, but also activates signals that can translocate to the nucleus to regulate gene expression.&nbsp; These signaling pathways are complex, but include:</p>
+<ul>
+<li><p>Activation of the cAMP/PKA pathway, producing a rapid but transient translocation of the catalytic subunits of PKA to the nucleus <span class="citation" data-cites="bacskai1993 müller1998 zhang2021">(<a href="references.html#ref-bacskai1993" role="doc-biblioref">Bacskai et al. 1993</a>; <a href="references.html#ref-müller1998" role="doc-biblioref">Müller and Carew 1998</a>; <a href="references.html#ref-zhang2021" role="doc-biblioref">Zhang et al. 2021</a>)</span></p></li>
+<li><p>Activation of MEK (MAPK/ERK kinase), which phosphorylates the extracellular signal-related kinase (ERK) isoform of mitogen-activated protein kinase (MAPK); this produces a delayed translocation of ERK to the nucleus <span class="citation" data-cites="philips2013 zhang2021">(<a href="references.html#ref-philips2013" role="doc-biblioref">Philips et al. 2013</a>; <a href="references.html#ref-zhang2021" role="doc-biblioref">Zhang et al. 2021</a>)</span></p></li>
+</ul></li>
+<li><p>The nuclear signals initiated by serotonin exposure converge on the phosphorylation of two key transcription factors: <em>Aplysia</em> homologs of the transcriptional activator cAMP response element binding protein [CREB1; <span class="citation" data-cites="bartsch1998">Bartsch et al. (<a href="references.html#ref-bartsch1998" role="doc-biblioref">1998</a>)</span>] and the transcriptional repressor CREB2 <span class="citation" data-cites="bartsch1995">(<a href="references.html#ref-bartsch1995" role="doc-biblioref">Bartsch et al. 1995</a>)</span>.&nbsp; Both of these basic leucine-zipper transcription factors bind to cAMP-response elements in the promoters of diverse genes but have opposing effects on the expression of their target genes: CREB1 shows low basal activity, and its phosphorylation enhances expression of its target genes; CREB2 is constitutively active as a repressor, and its phosphorylation relieves this repression.</p></li>
+<li><p>Long-term impacts only occur with training protocols that activate the cAMP/PKA pathway around the same time that ERK is activated <span class="citation" data-cites="philips2013 zhang2021">(<a href="references.html#ref-philips2013" role="doc-biblioref">Philips et al. 2013</a>; <a href="references.html#ref-zhang2021" role="doc-biblioref">Zhang et al. 2021</a>)</span>.&nbsp; This stabilizes activation of these pathways, producing sufficient CREB1 activation and CREB2 de-activation to produce an immediate-early wave of transcriptional change.&nbsp; &nbsp;This immediate-early wave of transcription increases the expression of effector genes and recruits additional transcriptional factors, including an <em>Aplysia</em> homolog of CCAAT Enhancer Binding Protein [c/EBP; <span class="citation" data-cites="alberini1994">Alberini et al. (<a href="references.html#ref-alberini1994" role="doc-biblioref">1994</a>)</span>] and <em>Aplysia</em> Activating Factor [ApAF; <span class="citation" data-cites="bartsch2000">Bartsch et al. (<a href="references.html#ref-bartsch2000" role="doc-biblioref">2000</a>)</span>], producing a complex transcriptional cascade.</p></li>
+<li><p>This transcriptional cascade organizes the expression of the lasting physiological changes that help encode long-term sensitization memory in <em>Aplysia</em> nociceptors.&nbsp; This includes global changes, such as long-term enhancement of excitability, as well as selective modification of synaptic properties through signaling cascades that enable recently-activated synapses to capture transported mRNAs for localized protein expression <span class="citation" data-cites="casadio1999 martin1997">(<a href="references.html#ref-casadio1999" role="doc-biblioref">Casadio et al. 1999</a>; <a href="references.html#ref-martin1997" role="doc-biblioref">Martin et al. 1997</a>)</span>.</p></li>
+</ul>
+<p>According to this model, even a single learning event (shock or serotonin exposure) sets in motion all the mechanisms required to form a long-term memory (including PKA and ERK activation), but does so sequentially, and thus cannot, on its own, unlock the transcriptional changes required for long-term memory.&nbsp; Successful learning thus requires multiple rounds of training timed in a way that produces activation of PKA and ERK at the same time.&nbsp; Although much remains to be discovered, this synchronization model of long-term sensitization provides a biochemical basis for the apparently universal superiority of spaced training over massed training and has proven to have remarkable predictive powers.&nbsp; Given that the transcription factors that play a central role in this model, CREB1 and CREB2, are implicated in long-term memory formation across the animal kingdom <span class="citation" data-cites="kandel2012 silva1998">(<a href="references.html#ref-kandel2012" role="doc-biblioref">Kandel 2012</a>; <a href="references.html#ref-silva1998" role="doc-biblioref">Silva et al. 1998</a>)</span>, this detailed understanding of the requirements for long-term sensitization in <em>Aplysia</em> may have broad implications for understanding learning in general.&nbsp; In the remainder of this section, the key components of this model are described, along with selective review of supporting evidence.</p>
+</section>
+<section id="serotonin-produces-rapid-but-transient-activation-of-pka-that-is-stabilized-and-extended-by-repeated-exposure" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="serotonin-produces-rapid-but-transient-activation-of-pka-that-is-stabilized-and-extended-by-repeated-exposure"><span class="header-section-number">3.2</span> Serotonin produces rapid but transient activation of PKA that is stabilized and extended by repeated exposure</h2>
+<p>Intensive study has shown that the pathways linking serotonergic signaling to the phosphorylation of CREB1 and CREB2 are remarkably complex. &nbsp;What initially seemed like two parallel pathways (PKA -&gt; CREB1 and ERK -&gt; CREB2) has been shown to involve entangled signal-transduction pathways with complex feedback loops and potential functional redundancies.</p>
+<p>The “fast” cAMP/PKA pathway is also the most straightforward.&nbsp; Serotonin activates metabotropic receptors positively coupled to the activation of adenylyl cyclase <span class="citation" data-cites="cohen2003 lee2009">(<a href="references.html#ref-cohen2003" role="doc-biblioref">Cohen et al. 2003</a>; <a href="references.html#ref-lee2009" role="doc-biblioref">Y.-S. Lee et al. 2009</a>)</span>, leading to an increase in the production of cAMP <span class="citation" data-cites="bernier1982">(<a href="references.html#ref-bernier1982" role="doc-biblioref">Bernier et al. 1982</a>)</span>.&nbsp; cAMP promotes the separation of the regulatory and catalytic subunits of PKA <span class="citation" data-cites="bacskai1993">(<a href="references.html#ref-bacskai1993" role="doc-biblioref">Bacskai et al. 1993</a>)</span>.&nbsp; Once translocated to the nucleus <span class="citation" data-cites="bacskai1993">(<a href="references.html#ref-bacskai1993" role="doc-biblioref">Bacskai et al. 1993</a>)</span> the catalytic subunits of PKA phosphorylate CREB1 <span class="citation" data-cites="dash1996">(<a href="references.html#ref-dash1996" role="doc-biblioref">Dash and Moore 1996</a>)</span>, helping to trigger the transcriptional changes that help encode a long-term sensitization memory. &nbsp;The critical involvement of the cAMP/PKA pathway in long-term sensitization is well established: The long-term effects of serotonin are mimicked by treatment with cAMP <span class="citation" data-cites="nazif1991 schacher1988 scholz1988">(<a href="references.html#ref-nazif1991" role="doc-biblioref">Nazif, Byrne, and Cleary 1991</a>; <a href="references.html#ref-schacher1988" role="doc-biblioref">Schacher, Castellucci, and Kandel 1988</a>; <a href="references.html#ref-scholz1988" role="doc-biblioref">Scholz and Byrne 1988</a>)</span> or the catalytic subunits of PKA <span class="citation" data-cites="chain1999">(<a href="references.html#ref-chain1999" role="doc-biblioref">Chain et al. 1999</a>)</span>.</p>
+<p>Studies comparing the effects of short- and long-term protocols show that activation of PKA is rapid, with an increase in free catalytic PKA evident almost immediately after serotonin exposure <span class="citation" data-cites="müller1998 zhang2021">(<a href="references.html#ref-müller1998" role="doc-biblioref">Müller and Carew 1998</a>; <a href="references.html#ref-zhang2021" role="doc-biblioref">Zhang et al. 2021</a>)</span>.&nbsp; With short-term protocols (a single pulse of serotonin), activation of PKA is transient, fading within 15 minutes.&nbsp; Repeated serotonin exposure produces not only repeated PKA activation but also stabilization, extending PKA action to more than 1 hour after induction.&nbsp;</p>
+</section>
+<section id="serotonin-produces-a-complex-and-delayed-activation-of-erk-that-is-terminated-by-p38-mapk-activity-and-stabilized-by-repeated-exposure" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="serotonin-produces-a-complex-and-delayed-activation-of-erk-that-is-terminated-by-p38-mapk-activity-and-stabilized-by-repeated-exposure"><span class="header-section-number">3.3</span> Serotonin produces a complex and delayed activation of ERK that is terminated by P38 MAPK activity and stabilized by repeated exposure</h2>
+<p>In addition to activating the cAMP/PKA pathway, serotonin promotes phosphorylation of ERK <span class="citation" data-cites="michael1998">(<a href="references.html#ref-michael1998" role="doc-biblioref">Michael et al. 1998</a>)</span>, activating its ability to translocate to the nucleus to regulate transcription <span class="citation" data-cites="martin1997">(<a href="references.html#ref-martin1997" role="doc-biblioref">Martin et al. 1997</a>)</span>.&nbsp; In contrast to the cAMP/PKA pathway, activation of ERK is highly complex and “slow”, features that are probably related.&nbsp; In terms of time-course, a single pulse of serotonin produces ERK phosphorylation that does not develop until 45 minutes after exposure <span class="citation" data-cites="philips2013">(<a href="references.html#ref-philips2013" role="doc-biblioref">Philips et al. 2013</a>)</span>.&nbsp; This activation then fades very rapidly, by 60 minutes after exposure.&nbsp; This very tight window of activation is produced by parallel activation of the competitive P38 isoform of MAPK <span class="citation" data-cites="zhang2017">(<a href="references.html#ref-zhang2017" role="doc-biblioref">Zhang et al. 2017</a>)</span>.&nbsp; With long-term protocols, ERK activation is stabilized and extended for at least 3 hours after training <span class="citation" data-cites="sharma2003 ye2012">(<a href="references.html#ref-sharma2003" role="doc-biblioref">Sharma et al. 2003</a>; <a href="references.html#ref-ye2012" role="doc-biblioref">Ye, Marina, and Carew 2012</a>)</span>.&nbsp;&nbsp; The activation of ERK has been clearly established as a requirement for long-term sensitization.&nbsp; For example, the long-term effects of serotonin are blocked by manipulations that block ERK activation [<span class="citation" data-cites="martin1997">Martin et al. (<a href="references.html#ref-martin1997" role="doc-biblioref">1997</a>)</span>; @shobe2016].</p>
+<p>The delayed activation of ERK is probably related to the fact that its induction involves complex signaling cascades that integrate extracellular and retrograde signaling.&nbsp; Serotonin stimulates secretion of several different signaling molecules from <em>Aplysia</em> nociceptors, including <em>Aplysia</em> homologs of neurotrophin [ApNT; <span class="citation" data-cites="kassabov2013">Kassabov et al. (<a href="references.html#ref-kassabov2013" role="doc-biblioref">2013</a>)</span>], a cysteine-rich neurotrophic factor )(ApCNRF; <span class="citation" data-cites="pu2014">(<a href="references.html#ref-pu2014" role="doc-biblioref">Pu et al. 2014</a>)</span>), transforming growth factor β [TGF-β; <span class="citation" data-cites="liu1997">Q. R. Liu et al. (<a href="references.html#ref-liu1997" role="doc-biblioref">1997</a>)</span>], and the peptide neurotransmitter sensorin <span class="citation" data-cites="hu2004">(<a href="references.html#ref-hu2004" role="doc-biblioref">Hu et al. 2004</a>)</span>.&nbsp; These changes in neurosecretion activate autoreceptors, including tyrosine receptor kinases (Trk receptors).&nbsp; This autoreceptor activation is key for then activating the “classic” pathway for ERK activation (RAF -&gt; MEK -&gt; ERK).&nbsp; Thus, serotonergic activation of ERK requires a cascade of extracellular and intracellular events.&nbsp; Blocking TGF-β signaling, TrkB-receptor activation, or sensorin secretion during training blocks both ERK activation and long-term plasticity <span class="citation" data-cites="hu2004 kassabov2013 kopec2015">(<a href="references.html#ref-hu2004" role="doc-biblioref">Hu et al. 2004</a>; <a href="references.html#ref-kassabov2013" role="doc-biblioref">Kassabov et al. 2013</a>; <a href="references.html#ref-kopec2015" role="doc-biblioref">Kopec et al. 2015</a>)</span>. &nbsp;Adding even more complexity, these neurosecretory signaling pathways are influenced by retrograde signals from synaptic partners, as both long-term facilitation and increased sensorin expression in <em>Aplysia</em> nociceptors depends on protein synthesis and calcium signaling in post-synaptic motor neurons <span class="citation" data-cites="cai2008">(<a href="references.html#ref-cai2008" role="doc-biblioref">Cai, Chen, and Glanzman 2008</a>)</span>.&nbsp; &nbsp;The way serotonin initially triggers neurosecretory signaling is not entirely clear, but likely involves PKA, as blocking serotonergic activation of PKA blocks serotonin-induced ERK phosphorylation <span class="citation" data-cites="zhang2021">(<a href="references.html#ref-zhang2021" role="doc-biblioref">Zhang et al. 2021</a>)</span>.&nbsp;</p>
+<p>The effects of ERK signaling are also complex, producing phosphorylation of not only CREB2 but also CREB1.&nbsp; The involvement of ERK in CREB2 phosphorylation was discovered first, with a notable increase in phosphorylation produced by co-incubation of <em>Aplysia</em> CREB2 with an activated form of ERK <span class="citation" data-cites="michael1998">(<a href="references.html#ref-michael1998" role="doc-biblioref">Michael et al. 1998</a>)</span>.&nbsp; It has been shown that phosphorylation of ERK is accompanied by activation of the P90 ribosomal S6 kinase (RSK), which then promotes the phosphorylation of CREB1 <span class="citation" data-cites="liu2020">(<a href="references.html#ref-liu2020" role="doc-biblioref">R.-Y. Liu et al. 2020</a>)</span>.&nbsp; Blocking RSK diminishes CREB1 phosphorylation and the long-term effects of serotonin, suggesting that the ERK pathway makes an important but not necessarily dominant contribution to the activation of CREB1.&nbsp;</p>
+</section>
+<section id="synchronization-of-pka-and-erk-activation-is-critical-for-the-induction-of-long-term-sensitization." class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="synchronization-of-pka-and-erk-activation-is-critical-for-the-induction-of-long-term-sensitization."><span class="header-section-number">3.4</span> Synchronization of PKA and ERK activation is critical for the induction of long-term sensitization.</h2>
+<p>Research comparing short- and long-term training protocols suggests that the key factor for producing long-term sensitization is the degree of synchronization between serotonin-induced PKA and ERK activation.&nbsp; This hypothesis was developed, in part, by the observation in intact animals that long-term sensitization could be produced by just 2 shocks spaced 45 minutes apart, but not by slightly shorter (15 minutes) or longer (60 minutes) training intervals <span class="citation" data-cites="philips2007">(<a href="references.html#ref-philips2007" role="doc-biblioref">Philips, Tzvetkova, and Carew 2007</a>)</span>.&nbsp;&nbsp; This narrow temporal window was found to be reflected in the delayed but transient phosphorylation of ERK produced by the first training stimulus.&nbsp; This led to hypothesis that the two-shock protocol succeeds in producing long-term sensitization only if the second shock is timed to re-activate PKA in the narrow time window of ERK activation from the first shock.&nbsp; Consistent with this hypothesis, preventing the first shock from producing a late-developing activation of ERK prevented a second shock from producing long-term sensitization <span class="citation" data-cites="philips2013">(<a href="references.html#ref-philips2013" role="doc-biblioref">Philips et al. 2013</a>)</span>.&nbsp; These findings strongly suggest that the key switch from short- to long-term sensitization is training that synchronizes the nuclear signaling induced by serotonin, producing PKA activation around the same time as ERK activation.&nbsp;</p>
+<p>The synchronization model of the induction of long-term sensitization has also been validated by computationally modeling parts of the PKA and ERK pathways and then testing predictions derived from these models.&nbsp;&nbsp; In one study, an abstract model of the PKA and ERK pathways was developed and fit to empirical measurements of PKA and ERK activation from single pulses of serotonin <span class="citation" data-cites="Zhang2012Computational">(<a href="references.html#ref-Zhang2012Computational" role="doc-biblioref">Zhang et al. 2012</a>)</span>.&nbsp; The model was then used to explore a broad parameter space of possible stimulation protocols.&nbsp; This exploration identified an idiosyncratic training protocol (5 pulses with inter-stimulus intervals of of 10, 10, 5, and 30 minutes) predicted to produce more temporal overlap of PKA and ERK activation than the standard long-term training protocol (5 pulses of serotonin at even 20-minute intervals).&nbsp; Remarkably, real-world testing of this idiosyncratic protocol in the cellular model of sensitization produced stronger phosphorylation of CREB1 and longer-lasting synaptic facilitation at <em>Aplysia</em> nociceptors; in intact animals shocks applied at the same uneven intervals produced longer-lasting long-term sensitization of the siphon withdrawal reflex.</p>
+<p>Subsequent computational studies have incorporated more of the complex signaling pathways involved in serotonergic activation of PKA and ERK and have continued to generate novel <em>in silico</em> predictions that have then been validated <em>in vivo</em>.&nbsp; In one study <span class="citation" data-cites="liu2013a">(<a href="references.html#ref-liu2013a" role="doc-biblioref">R.-Y. Liu et al. 2013b</a>)</span>, the model was extended to represent PKA- and ERK-based phosphorylation of CREB1 and CREB2, and their interaction with CREB-binding protein (CBP) to regulate expression of the immediate-early gene c/EBP.&nbsp; The extended model correctly mimicked the <em>in vivo</em> finding that knocking down CBP expression limits the effectiveness of the standard long-term protocol, producing lower levels of long-term facilitation than under control conditions.&nbsp; The model was then used to search for training protocols that could overcome the reduction of CBP, identifying a predicted rescue protocol with intermittent timing (5 pulses at intervals of 10, 10, 20, and 10 minutes).&nbsp; This <em>in silico</em> prediction was confirmed in culture, with the rescue protocol restoring the expression of long-term sensitization during CBP knock down. &nbsp;Similarly, the impact of reducing CREB1 expression has been modelled and successfully rescued via a computationally-derived intervention <span class="citation" data-cites="zhou2015">(<a href="references.html#ref-zhou2015" role="doc-biblioref">Zhou et al. 2015</a>)</span>.</p>
+<p>Additional elaborations of the computational model of long-term sensitization include incorporation of serotonin-induced activation of a P38 isoform of MAPK that reduces ERK activation <span class="citation" data-cites="zhang2017">(<a href="references.html#ref-zhang2017" role="doc-biblioref">Zhang et al. 2017</a>)</span> and the addition of both PKA and ERK-mediated RSK activation <span class="citation" data-cites="zhang2021">(<a href="references.html#ref-zhang2021" role="doc-biblioref">Zhang et al. 2021</a>)</span>.&nbsp; At this point, the model incorporates many of the complex signaling pathways known to regulate PKA and ERK activation.&nbsp; It has generated multiple validated predictions, offered new insight into the failure of massed training to produce long-term memory, and provided a tool for dissecting the role of different feedback pathways in stabilizing and extending the induction of long-term sensitization.&nbsp; While much remains to be learned, it seems clear that the temporal dynamics by which serotonin activates nuclear signaling plays a key role in determining which experiences succeed in activating transcription to generate long-term memories.</p>
+</section>
+<section id="activation-of-creb1-and-de-activation-of-creb2-initiate-an-immediate-early-transcriptional-response-that-includes-up-regulation-of-cebp" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="activation-of-creb1-and-de-activation-of-creb2-initiate-an-immediate-early-transcriptional-response-that-includes-up-regulation-of-cebp"><span class="header-section-number">3.5</span> Activation of CREB1 and de-activation of CREB2 initiate an immediate-early transcriptional response that includes up-regulation of C/EBP</h2>
+<p>Synchronized PKA and ERK activity converge on the regulation of the transcription factors CREB1 and CREB2.&nbsp; Together, these transcription factors serve as a two-factor key for unlocking neuronal transcription to induce lasting plasticity in <em>Aplysia</em> nociceptors.&nbsp; Successful long-term training protocols achieve sufficient activation of the ERK to relieve the constitutive repression of CREB2 while also activating the cAMP/PKA pathway and RSK to phosphorylate CREB1; this combined action produces an immediate-early transcriptional response, a designation for transcriptional changes triggered rapidly by constitutively expressed transcription factors without the need for intervening protein synthesis. &nbsp;</p>
+<p>The immediate-early wave of transcription increases the expression of multiple proteins <span class="citation" data-cites="kuhl1992a">(<a href="references.html#ref-kuhl1992a" role="doc-biblioref">Kuhl et al. 1992</a>)</span>.&nbsp; One of the clearest readouts is a dramatic up-regulation of C/EBP, a transcription factor which targets genes with an CCAAT enhancer-response element <span class="citation" data-cites="alberini1994">(<a href="references.html#ref-alberini1994" role="doc-biblioref">Alberini et al. 1994</a>)</span>.&nbsp; C/EBP is not constitutively expressed in <em>Aplysia</em> nociceptors, but is induced rapidly (within 15 minutes) but transiently by serotonin exposure in cell culture and by noxious shock in intact animals <span class="citation" data-cites="lyons2006">(<a href="references.html#ref-lyons2006" role="doc-biblioref">Lyons et al. 2006</a>)</span>.&nbsp; This increase in expression requires translocation of CREB-binding protein (CBP) to the nucleus, where it binds with CREB1 to the promoter of the <em>c/ebp</em> gene, displacing constitutive repression by CREB2 <span class="citation" data-cites="guan2002">(<a href="references.html#ref-guan2002" role="doc-biblioref">Guan et al. 2002</a>)</span>.&nbsp; Serotonergic activation of C/EBP requires histone acetylation at the <em>c/ebp</em> promoter <span class="citation" data-cites="guan2002">(<a href="references.html#ref-guan2002" role="doc-biblioref">Guan et al. 2002</a>)</span> and can be fostered by the nucleolar protein known as activity-induced activation LAPS18-like protein <span class="citation" data-cites="kim2003 kim2006">(ApLLP’ <a href="references.html#ref-kim2003" role="doc-biblioref">Kim et al. 2003</a>, <a href="references.html#ref-kim2006" role="doc-biblioref">2006</a>)</span>.&nbsp;</p>
+<p>The dual roles of CREB1 and CREB2 in initiating transcription are very well-established.&nbsp; Long-term protocols produce phosphorylation of CREB1 <span class="citation" data-cites="bartsch1998 chain1999">(<a href="references.html#ref-bartsch1998" role="doc-biblioref">Bartsch et al. 1998</a>; <a href="references.html#ref-chain1999" role="doc-biblioref">Chain et al. 1999</a>)</span> and CREB2 <span class="citation" data-cites="bartsch1995">(<a href="references.html#ref-bartsch1995" role="doc-biblioref">Bartsch et al. 1995</a>)</span>, displace CREB2 binding from the promoters of genes it represses while increasing CREB1 binding <span class="citation" data-cites="mohamed2005">(<a href="references.html#ref-mohamed2005" role="doc-biblioref">Mohamed et al. 2005</a>)</span>, and increases the expression of CREB1’s target genes <span class="citation" data-cites="kaang1993">(<a href="references.html#ref-kaang1993" role="doc-biblioref">Kaang, Kandel, and Grant 1993</a>)</span>.&nbsp; Manipulations that disrupt CREB1 function completely block serotonin from producing long-term increases in synaptic strength and excitability in <em>Aplysia</em> nociceptors <span class="citation" data-cites="bartsch1998 liu2011b">(<a href="references.html#ref-bartsch1998" role="doc-biblioref">Bartsch et al. 1998</a>; <a href="references.html#ref-liu2011b" role="doc-biblioref">R.-Y. Liu et al. 2011</a>)</span> while direct injection of phosphorylated CREB1 into <em>Aplysia</em> nociceptors mimics the effects of repeated serotonin exposure <span class="citation" data-cites="bartsch2000">(<a href="references.html#ref-bartsch2000" role="doc-biblioref">Bartsch et al. 2000</a>)</span>.&nbsp; The repressive influence of CREB2 is highlighted by studies which have disrupted CREB2 function; this makes it easier to induce long-term plasticity, enabling short-term training protocols (a single pulse of serotonin) to produce lasting effects <span class="citation" data-cites="bartsch1995 lee2001">(<a href="references.html#ref-bartsch1995" role="doc-biblioref">Bartsch et al. 1995</a>; <a href="references.html#ref-lee2001" role="doc-biblioref">J. a. Lee et al. 2001</a>)</span>.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-alberini1994" class="csl-entry" role="listitem">
+Alberini, Cristina M, M Ghirardi, R Metz, and E R Kandel. 1994. <span>“C/EBP Is an Immediate-Early Gene Required for the Consolidation of Long-Term Facilitation in Aplysia.”</span> <em>Cell</em> 76 (6): 1099–1114.
+</div>
+<div id="ref-bacskai1993" class="csl-entry" role="listitem">
+Bacskai, Brian J., Binyamin Hochner, Martyn Mahaut-Smith, Stephen R. Adams, Bong-Kiun Kaang, Eric R. Kandel, and Roger Y. Tsien. 1993. <span>“Spatially Resolved Dynamics of cAMP and Protein Kinase a Subunits in Aplysia Sensory Neurons.”</span> <em>Science</em> 260 (5105): 222–26. <a href="https://doi.org/10.1126/science.7682336">https://doi.org/10.1126/science.7682336</a>.
+</div>
+<div id="ref-bartsch1998" class="csl-entry" role="listitem">
+Bartsch, D, A Casadio, K A Karl, P Serodio, and E R Kandel. 1998. <span>“CREB1 Encodes a Nuclear Activator, a Repressor, and a Cytoplasmic Modulator That Form a Regulatory Unit Critical for Long-Term Facilitation.”</span> <em>Cell</em> 95 (2): 211–23.
+</div>
+<div id="ref-bartsch2000" class="csl-entry" role="listitem">
+Bartsch, D, M Ghirardi, a Casadio, M Giustetto, K a Karl, H Zhu, and E R Kandel. 2000. <span>“Enhancement of Memory-Related Long-Term Facilitation by ApAF, a Novel Transcription Factor That Acts Downstream from Both CREB1 and CREB2.”</span> <em>Cell</em> 103 (4): 595–608. <a href="http://www.ncbi.nlm.nih.gov/pubmed/11106730">http://www.ncbi.nlm.nih.gov/pubmed/11106730</a>.
+</div>
+<div id="ref-bartsch1995" class="csl-entry" role="listitem">
+Bartsch, D, Mirella Ghirardi, PA Skehel, and KA Karl. 1995. <span>“Aplysia CREB2 Represses Long-Term Facilitation: Relief of Repression Converts Transient Facilitation into Long-Term Functional and Structural Change.”</span> <em>Cell</em> 83: 979–92. <a href="https://doi.org/10.1016/0092-8674(95)90213-9">https://doi.org/10.1016/0092-8674(95)90213-9</a>.
+</div>
+<div id="ref-bernier1982" class="csl-entry" role="listitem">
+Bernier, L., V. F. Castellucci, E. R. Kandel, and J. H. Schwartz. 1982. <span>“Facilitatory Transmitter Causes a Selective and Prolonged Increase in Adenosine 3’:5’-Monophosphate in Sensory Neurons Mediating the Gill and Siphon Withdrawal Reflex in Aplysia.”</span> <em>Journal of Neuroscience</em> 2 (12): 1682–91. <a href="https://doi.org/10.1523/JNEUROSCI.02-12-01682.1982">https://doi.org/10.1523/JNEUROSCI.02-12-01682.1982</a>.
+</div>
+<div id="ref-byrne2015" class="csl-entry" role="listitem">
+Byrne, John H, and Hawkins, Robert. 2015. <span>“Nonassociative Learning in Invertebrates.”</span> <em>Cold Spring Harbor Perspectives in Biology</em> 7 (5): a021675. <a href="https://doi.org/10.1101/cshperspect.a021675">https://doi.org/10.1101/cshperspect.a021675</a>.
+</div>
+<div id="ref-cai2008" class="csl-entry" role="listitem">
+Cai, Diancai, Shanping Chen, and David L. Glanzman. 2008. <span>“Postsynaptic Regulation of Long-Term Facilitation in Aplysia.”</span> <em>Current Biology : CB</em> 18 (12): 920–25. <a href="https://doi.org/10.1016/j.cub.2008.05.038">https://doi.org/10.1016/j.cub.2008.05.038</a>.
+</div>
+<div id="ref-casadio1999" class="csl-entry" role="listitem">
+Casadio, Andrea, Kelsey C. Martin, Maurizio Giustetto, Huixiang Zhu, Mary Chen, Dusan Bartsch, Craig H. Bailey, and Eric R. Kandel. 1999. <span>“A Transient, Neuron-Wide Form of CREB-Mediated Long-Term Facilitation Can Be Stabilized at Specific Synapses by Local Protein Synthesis.”</span> <em>Cell</em> 99 (2): 221–37. <a href="https://doi.org/10.1016/S0092-8674(00)81653-0">https://doi.org/10.1016/S0092-8674(00)81653-0</a>.
+</div>
+<div id="ref-chain1999" class="csl-entry" role="listitem">
+Chain, Daniel G., Andrea Casadio, Samuel Schacher, Ashok N. Hegde, Mireille Valbrun, Naoki Yamamoto, Alfred L. Goldberg, Dusan Bartsch, Eric R. Kandel, and James H. Schwartz. 1999. <span>“Mechanisms for Generating the Autonomous cAMP-Dependent Protein Kinase Required for Long-Term Facilitation in Aplysia.”</span> <em>Neuron</em> 22 (1): 147–56. <a href="https://doi.org/10.1016/S0896-6273(00)80686-8">https://doi.org/10.1016/S0896-6273(00)80686-8</a>.
+</div>
+<div id="ref-cohen2003" class="csl-entry" role="listitem">
+Cohen, Jonathan E., Chiadi U. Onyike, Virginia L. McElroy, Allison H. Lin, and Thomas W. Abrams. 2003. <span>“Pharmacological Characterization of an Adenylyl Cyclase-Coupled 5-HT Receptor in Aplysia: Comparison with Mammalian 5-HT Receptors.”</span> <em>Journal of Neurophysiology</em> 89 (3): 1440–55. <a href="https://doi.org/10.1152/jn.01004.2002">https://doi.org/10.1152/jn.01004.2002</a>.
+</div>
+<div id="ref-dash1996" class="csl-entry" role="listitem">
+Dash, Pramod K., and Anthony N. Moore. 1996. <span>“Characterization and Phosphorylation of CREB-Like Proteins in Aplysia Central Nervous System.”</span> <em>Molecular Brain Research</em> 39 (1): 43–51. <a href="https://doi.org/10.1016/0169-328X(95)00350-2">https://doi.org/10.1016/0169-328X(95)00350-2</a>.
+</div>
+<div id="ref-guan2002" class="csl-entry" role="listitem">
+Guan, Zhonghui, Maurizio Giustetto, Stavros Lomvardas, Joung-Hun Kim, Maria Concetta Miniaci, James H. Schwartz, Dimitris Thanos, and Eric R. Kandel. 2002. <span>“Integration of Long-Term-Memory-Related Synaptic Plasticity Involves Bidirectional Regulation of Gene Expression and Chromatin Structure.”</span> <em>Cell</em> 111 (4): 483–93. <a href="https://doi.org/10.1016/S0092-8674(02)01074-7">https://doi.org/10.1016/S0092-8674(02)01074-7</a>.
+</div>
+<div id="ref-hu2004" class="csl-entry" role="listitem">
+Hu, Jiang-Yuan, Leonard Glickman, Fang Wu, and Samuel Schacher. 2004. <span>“Serotonin Regulates the Secretion and Autocrine Action of a Neuropeptide to Activate MAPK Required for Long-Term Facilitation in Aplysia.”</span> <em>Neuron</em> 43 (3): 373–85. <a href="https://doi.org/10.1016/j.neuron.2004.07.011">https://doi.org/10.1016/j.neuron.2004.07.011</a>.
+</div>
+<div id="ref-kaang1993" class="csl-entry" role="listitem">
+Kaang, B K, E R Kandel, and S G Grant. 1993. <span>“Activation of cAMP-Responsive Genes by Stimuli That Produce Long-Term Facilitation in Aplysia Sensory Neurons.”</span> <em>Neuron</em> 10 (3): 427–35. <a href="http://www.ncbi.nlm.nih.gov/pubmed/8384857">http://www.ncbi.nlm.nih.gov/pubmed/8384857</a>.
+</div>
+<div id="ref-kandel2012" class="csl-entry" role="listitem">
+Kandel, Eric R. 2012. <span>“The Molecular Biology of Memory: cAMP, PKA, CRE, CREB-1, CREB-2, and CPEB.”</span> <em>Molecular Brain</em> 5 (1): 14. <a href="https://doi.org/10.1186/1756-6606-5-14">https://doi.org/10.1186/1756-6606-5-14</a>.
+</div>
+<div id="ref-kassabov2013" class="csl-entry" role="listitem">
+Kassabov, Stefan R., Yun-Beom Beom Choi, Kevin a. Karl, Harshad D. Vishwasrao, Craig H. Bailey, and Eric R. Kandel. 2013. <span>“A Single Aplysia Neurotrophin Mediates Synaptic Facilitation via Differentially Processed Isoforms.”</span> <em>Cell Reports</em> 3 (4): 1213–27. <a href="https://doi.org/10.1016/j.celrep.2013.03.008">https://doi.org/10.1016/j.celrep.2013.03.008</a>.
+</div>
+<div id="ref-kim2003" class="csl-entry" role="listitem">
+Kim, Hyoung, Deok-Jin Chang, Jin-A Lee, Yong-Seok Lee, and Bong-Kiun Kaang. 2003. <span>“Identification of Nuclear/Nucleolar Localization Signal in Aplysia Learning Associated Protein of Slug with a Molecular Mass of 18 kDa Homologous Protein.”</span> <em>Neuroscience Letters</em> 343 (2): 134–38. <a href="https://doi.org/10.1016/S0304-3940(03)00269-6">https://doi.org/10.1016/S0304-3940(03)00269-6</a>.
+</div>
+<div id="ref-kim2006" class="csl-entry" role="listitem">
+Kim, Hyoung, Sue-Hyun Lee, Jin-Hee Han, Jin-A Lee, Ye-Hwang Cheang, Deok-Jin Chang, Yong-Seok Lee, and Bong-Kiun Kaang. 2006. <span>“A Nucleolar Protein ApLLP Induces ApC/EBP Expression Required for Long-Term Synaptic Facilitation in Aplysia Neurons.”</span> <em>Neuron</em> 49 (5): 707–18. <a href="https://doi.org/10.1016/j.neuron.2006.01.035">https://doi.org/10.1016/j.neuron.2006.01.035</a>.
+</div>
+<div id="ref-kopec2015" class="csl-entry" role="listitem">
+Kopec, Ashley M, Gary T Philips, Thomas J Carew, Ashley M Kopec, Gary T Philips, and Thomas J Carew. 2015. <span>“Distinct Growth Factor Families Are Recruited in Unique Spatiotemporal Domains During Long-Term Memory Formation in Aplysia Californica Distinct Growth Factor Families Are Recruited in Unique Spatiotemporal Domains During Long-Term Memory Formation in Apl.”</span> <em>Neuron</em> 86 (5): 1228–39. <a href="https://doi.org/10.1016/j.neuron.2015.04.025">https://doi.org/10.1016/j.neuron.2015.04.025</a>.
+</div>
+<div id="ref-kuhl1992a" class="csl-entry" role="listitem">
+Kuhl, D, T E Kennedy, A Barzilai, and E R Kandel. 1992. <span>“Long-Term Sensitization Training in Aplysia Leads to an Increase in the Expression of BiP, the Major Protein Chaperon of the ER.”</span> <em>The Journal of Cell Biology</em> 119 (5): 1069–76. <a href="https://doi.org/10.1083/jcb.119.5.1069">https://doi.org/10.1083/jcb.119.5.1069</a>.
+</div>
+<div id="ref-lee2001" class="csl-entry" role="listitem">
+Lee, J a, H K Kim, K H Kim, J H Han, Y S Lee, C S Lim, D J Chang, T Kubo, and B K Kaang. 2001. <span>“Overexpression of and RNA Interference with the CCAAT Enhancer-Binding Protein on Long-Term Facilitation of Aplysia Sensory to Motor Synapses.”</span> <em>Learning &amp; Memory (Cold Spring Harbor, N.Y.)</em> 8 (4): 220–26. <a href="https://doi.org/10.1101/lm.40201">https://doi.org/10.1101/lm.40201</a>.
+</div>
+<div id="ref-lee2009" class="csl-entry" role="listitem">
+Lee, Yong-Seok, Sun-Lim Choi, Seung-Hee Lee, Hyoung Kim, Hyungju Park, Nuribalhae Lee, Sue-Hyun Lee, et al. 2009. <span>“Identification of a Serotonin Receptor Coupled to Adenylyl Cyclase Involved in Learning-Related Heterosynaptic Facilitation in Aplysia.”</span> <em>Proceedings of the National Academy of Sciences</em> 106 (34): 14634–39. <a href="https://doi.org/10.1073/pnas.0907502106">https://doi.org/10.1073/pnas.0907502106</a>.
+</div>
+<div id="ref-liu1997" class="csl-entry" role="listitem">
+Liu, Q R, S Hattar, S Endo, K MacPhee, H Zhang, L J Cleary, J H Byrne, and A Eskin. 1997. <span>“A Developmental Gene (Tolloid/BMP-1) Is Regulated in Aplysia Neurons by Treatments That Induce Long-Term Sensitization.”</span> <em>The Journal of Neuroscience</em> 17 (2): 755–64. <a href="http://www.ncbi.nlm.nih.gov/pubmed/8987797">http://www.ncbi.nlm.nih.gov/pubmed/8987797</a>.
+</div>
+<div id="ref-liu2011b" class="csl-entry" role="listitem">
+Liu, Rong-Yu, Shreyansh Shah, Leonard J Cleary, and John H Byrne. 2011. <span>“Serotonin- and Training-Induced Dynamic Regulation of CREB2 in Aplysia.”</span> <em>Learning &amp; Memory</em> 18 (4): 245–49. <a href="https://doi.org/10.1101/lm.2112111">https://doi.org/10.1101/lm.2112111</a>.
+</div>
+<div id="ref-liu2013" class="csl-entry" role="listitem">
+Liu, Rong-Yu, Yili Zhang, Douglas A. Baxter, Paul Smolen, Leonard J. Cleary, and John H. Byrne. 2013a. <span>“Deficit in Long-Term Synaptic Plasticity Is Rescued by a Computationally Predicted Stimulus Protocol.”</span> <em>Journal of Neuroscience</em> 33 (16): 6944–49. <a href="https://doi.org/10.1523/JNEUROSCI.0643-13.2013">https://doi.org/10.1523/JNEUROSCI.0643-13.2013</a>.
+</div>
+<div id="ref-liu2013a" class="csl-entry" role="listitem">
+Liu, Rong-Yu, Yili Zhang, Douglas a. Baxter, Paul Smolen, Leonard J. Cleary, and John H. Byrne. 2013b. <span>“Deficit in Long-Term Synaptic Plasticity Is Rescued by a Computationally Predicted Stimulus Protocol.”</span> <em>The Journal of Neuroscience : The Official Journal of the Society for Neuroscience</em> 33 (16): 6944–49. <a href="https://doi.org/10.1523/JNEUROSCI.0643-13.2013">https://doi.org/10.1523/JNEUROSCI.0643-13.2013</a>.
+</div>
+<div id="ref-liu2020" class="csl-entry" role="listitem">
+Liu, Rong-Yu, Yili Zhang, Paul Smolen, Leonard J. Cleary, and John H. Byrne. 2020. <span>“Role of P90 Ribosomal S6 Kinase in Long-Term Synaptic Facilitation and Enhanced Neuronal Excitability.”</span> <em>Scientific Reports</em> 10 (January): 608. <a href="https://doi.org/10.1038/s41598-020-57484-y">https://doi.org/10.1038/s41598-020-57484-y</a>.
+</div>
+<div id="ref-lyons2006" class="csl-entry" role="listitem">
+Lyons, Lisa C, Maria Sol Collado, Omar Khabour, Charity L Green, and Arnold Eskin. 2006. <span>“The Circadian Clock Modulates Core Steps in Long-Term Memory Formation in Aplysia.”</span> <em>The Journal of Neuroscience</em> 26 (34): 8662–71. <a href="https://doi.org/10.1523/JNEUROSCI.2307-06.2006">https://doi.org/10.1523/JNEUROSCI.2307-06.2006</a>.
+</div>
+<div id="ref-martin1997" class="csl-entry" role="listitem">
+Martin, Kelsey C., Andrea Casadio, Huixiang Zhu, Yaping E, Jack C. Rose, Mary Chen, Craig H. Bailey, and Eric R. Kandel. 1997. <span>“Synapse-Specific, Long-Term Facilitation of Aplysia Sensory to Motor Synapses: A Function for Local Protein Synthesis in Memory Storage.”</span> <em>Cell</em> 91 (7): 927–38. <a href="https://doi.org/10.1016/S0092-8674(00)80484-5">https://doi.org/10.1016/S0092-8674(00)80484-5</a>.
+</div>
+<div id="ref-michael1998" class="csl-entry" role="listitem">
+Michael, Dan, Kelsey C. Martin, Rony Seger, Ming-Ming Ning, Rene Baston, and Eric R. Kandel. 1998. <span>“Repeated Pulses of Serotonin Required for<span></span>long-Term Facilitation Activate Mitogen-Activated Protein Kinase in Sensory Neurons<span></span>of<span></span>aplysia.”</span> <em>Proceedings of the National Academy of Sciences</em> 95 (4): 1864–69. <a href="https://doi.org/10.1073/pnas.95.4.1864">https://doi.org/10.1073/pnas.95.4.1864</a>.
+</div>
+<div id="ref-mohamed2005" class="csl-entry" role="listitem">
+Mohamed, Habib a, Weizhe Yao, Diasinou Fioravante, Paul D Smolen, and John H Byrne. 2005. <span>“cAMP-Response Elements in Aplysia Creb1, Creb2, and Ap-Uch Promoters: Implications for Feedback Loops Modulating Long Term Memory.”</span> <em>The Journal of Biological Chemistry</em> 280 (29): 27035–43. <a href="https://doi.org/10.1074/jbc.M502541200">https://doi.org/10.1074/jbc.M502541200</a>.
+</div>
+<div id="ref-müller1998" class="csl-entry" role="listitem">
+Müller, Uli, and Thomas J. Carew. 1998. <span>“Serotonin Induces Temporally and Mechanistically Distinct Phases of Persistent PKA Activity in Aplysia Sensory Neurons.”</span> <em>Neuron</em> 21 (6): 1423–34. <a href="https://doi.org/10.1016/S0896-6273(00)80660-1">https://doi.org/10.1016/S0896-6273(00)80660-1</a>.
+</div>
+<div id="ref-nazif1991" class="csl-entry" role="listitem">
+Nazif, Fidelma A., John H. Byrne, and Leonard J. Cleary. 1991. <span>“cAMP Induces Long-Term Morphological Changes in Sensory Neurons ofAplysia.”</span> <em>Brain Research</em> 539 (2): 324–27. <a href="https://doi.org/10.1016/0006-8993(91)91638-H">https://doi.org/10.1016/0006-8993(91)91638-H</a>.
+</div>
+<div id="ref-philips2007" class="csl-entry" role="listitem">
+Philips, Gary T., Ekaterina I. Tzvetkova, and Thomas J. Carew. 2007. <span>“Transient Mitogen-Activated Protein Kinase Activation Is Confined to a Narrow Temporal Window Required for the Induction of Two-Trial Long-Term Memory in Aplysia.”</span> <em>Journal of Neuroscience</em> 27 (50): 13701–5. <a href="https://doi.org/10.1523/JNEUROSCI.4262-07.2007">https://doi.org/10.1523/JNEUROSCI.4262-07.2007</a>.
+</div>
+<div id="ref-philips2013" class="csl-entry" role="listitem">
+Philips, Gary T., Xiaojing Ye, Ashley M. Kopec, and Thomas J. Carew. 2013. <span>“MAPK Establishes a Molecular Context That Defines Effective Training Patterns for Long-Term Memory Formation.”</span> <em>Journal of Neuroscience</em> 33 (17): 7565–73. <a href="https://doi.org/10.1523/JNEUROSCI.5561-12.2013">https://doi.org/10.1523/JNEUROSCI.5561-12.2013</a>.
+</div>
+<div id="ref-pu2014" class="csl-entry" role="listitem">
+Pu, Lu, Ashley M. Kopec, Heather D. Boyle, and Thomas J. Carew. 2014. <span>“A novel cysteine-rich neurotrophic factor in Aplysia facilitates growth, MAPK activation, and long-term synaptic facilitation.”</span> <em>Learning &amp; Memory (Cold Spring Harbor, N.Y.)</em> 21 (4): 215–22. <a href="https://doi.org/10.1101/lm.033662.113">https://doi.org/10.1101/lm.033662.113</a>.
+</div>
+<div id="ref-schacher1988" class="csl-entry" role="listitem">
+Schacher, S., V. F. Castellucci, and E. R. Kandel. 1988. <span>“cAMP Evokes Long-Term Facilitation in Aplysia Sensory Neurons That Requires New Protein Synthesis.”</span> <em>Science</em> 240 (4859): 1667–69. <a href="https://doi.org/10.1126/science.2454509">https://doi.org/10.1126/science.2454509</a>.
+</div>
+<div id="ref-scholz1988" class="csl-entry" role="listitem">
+Scholz, Kenneth P., and John H. Byrne. 1988. <span>“Intracellular Injection of cAMP Induces a Long-Term Reduction of Neuronal k+ Currents.”</span> <em>Science</em> 240 (4859): 1664–66. <a href="https://doi.org/10.1126/science.2837826">https://doi.org/10.1126/science.2837826</a>.
+</div>
+<div id="ref-sharma2003" class="csl-entry" role="listitem">
+Sharma, Shiv K., Carolyn M. Sherff, Justin Shobe, Martha W. Bagnall, Michael A. Sutton, and Thomas J. Carew. 2003. <span>“Differential Role of Mitogen-Activated Protein Kinase in Three Distinct Phases of Memory for Sensitization in Aplysia.”</span> <em>Journal of Neuroscience</em> 23 (9): 3899–3907. <a href="https://doi.org/10.1523/JNEUROSCI.23-09-03899.2003">https://doi.org/10.1523/JNEUROSCI.23-09-03899.2003</a>.
+</div>
+<div id="ref-silva1998" class="csl-entry" role="listitem">
+Silva, Alcino J., Jeffrey H. Kogan, Paul W. Frankland, and Satoshi Kida. 1998. <span>“CREB and Memory.”</span> <em>Annual Review of Neuroscience</em> 21 (1): 127–48. <a href="https://doi.org/10.1146/annurev.neuro.21.1.127">https://doi.org/10.1146/annurev.neuro.21.1.127</a>.
+</div>
+<div id="ref-ye2012" class="csl-entry" role="listitem">
+Ye, X., a. Marina, and T. J. Carew. 2012. <span>“Local Synaptic Integration of Mitogen-Activated Protein Kinase and Protein Kinase a Signaling Mediates Intermediate-Term Synaptic Facilitation in Aplysia.”</span> <em>Proceedings of the National Academy of Sciences</em>, October, 1–6. <a href="https://doi.org/10.1073/pnas.1209956109">https://doi.org/10.1073/pnas.1209956109</a>.
+</div>
+<div id="ref-Zhang2012Computational" class="csl-entry" role="listitem">
+Zhang, Yili, Rong-Yu Liu, a George Heberton, Paul Smolen, a Douglas Baxter, Leonard J Cleary, and John H Byrne. 2012. <span>“Computational Design of Enhanced Learning Protocols.”</span> <em>Nature Neuroscience</em> 15 (2): 294–97. <a href="https://doi.org/10.1038/nn.2990">https://doi.org/10.1038/nn.2990</a>.
+</div>
+<div id="ref-zhang2021" class="csl-entry" role="listitem">
+Zhang, Yili, Paul D. Smolen, Leonard J. Cleary, and John H. Byrne. 2021. <span>“Quantitative Description of the Interactions Among Kinase Cascades Underlying Long-Term Plasticity of Aplysia Sensory Neurons.”</span> <em>Scientific Reports</em> 11 (July): 14931. <a href="https://doi.org/10.1038/s41598-021-94393-0">https://doi.org/10.1038/s41598-021-94393-0</a>.
+</div>
+<div id="ref-zhang2017" class="csl-entry" role="listitem">
+Zhang, Yili, Paul Smolen, Douglas A. Baxter, and John H. Byrne. 2017. <span>“Biphasic Regulation of P38 MAPK by Serotonin Contributes to the Efficacy of Stimulus Protocols That Induce Long-Term Synaptic Facilitation.”</span> <em>eNeuro</em> 4 (1). <a href="https://doi.org/10.1523/ENEURO.0373-16.2017">https://doi.org/10.1523/ENEURO.0373-16.2017</a>.
+</div>
+<div id="ref-zhou2015" class="csl-entry" role="listitem">
+Zhou, Lian, X Yili Zhang, Rong-yu Liu, Paul Smolen, X Leonard J Cleary, and John H Byrne. 2015. <span>“Rescue of Impaired Long-Term Facilitation at Sensorimotor Synapses of Aplysia Following siRNA Knockdown of CREB1”</span> 35 (4): 1617–26. <a href="https://doi.org/10.1523/JNEUROSCI.3330-14.2015">https://doi.org/10.1523/JNEUROSCI.3330-14.2015</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Background.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Background: Sensitization Memory in <em>Aplysia</em></span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Encoding.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Encoding: What are the transcriptional changes induced by long-term sensitization training?</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

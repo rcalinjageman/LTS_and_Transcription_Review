@@ -1,0 +1,13 @@
+# Conclusions and Future Directions
+
+Long-term sensitization in *Aplysia* is produced by learning experiences that synchronize fast-developing cAMP/PKA activation with slow-developing ERK activation, enabling transcriptional activation via CREB1 to occur at the same time as transcriptional de-repression via CREB2.  Successful induction of long-term sensitization triggers an immediate-early transcriptional response that helps stabilize and extend the complex signaling pathways activated during learning, organizing a late-developing wave of transcription that helps encode long-term sensitization memory via lasting changes in excitability, synaptic strength, and (with extended training) growth.  The feedback loops that help stabilize the induction of long-term sensitization may also help maintain sensitization memory, but how transcriptional changes relate to forgetting and the potential re-learning of sensitization memory remains unclear.
+
+              While our understanding of the transcriptional mechanism of sensitization is detailed [\[A1\]](#_msocom_1) enough to enable computational predictions of new learning phenomena, much still remains to be learned:
+
+·       The encoding of long-term sensitization involves multiple cell types, and transcriptional changes are evident beyond the nociceptors that have been the primary focus of study.  It is not yet clear, though, how transcriptional mechanisms of memory vary across neurons.  One especially intriguing question is if transcriptional changes must be \"zero-sum\" across a circuit in order to limit the energy costs incurred by information storage.
+
+·       Many of the key mechanisms of long-term sensitization in *Aplysia* play important roles in learning and plasticity in other organisms. To date, however, potential conservation of learning mechanisms has not been systematically investigated.  Measuring transcriptional states across species and learning paradigms may provide a way to begin elucidating a phylogeny of long-term memory mechanisms. 
+
+Long-term sensitization mechanisms are remarkably complex, both in the cross-talk, feedback, and extracellular signaling loops that characterize induction pathways, and in the surprisingly vast array of accompanying transcriptional changes.  Why is the encoding of such a simple form of learning so complex?  Does it help individual elements in a circuit encode information in concert with the networks they take part in, or is it just an accidental product of the complex evolutionary history of learning? 
+
+These and many other fascinating aspects of long-term sensitization in *Aplysia* await exploration. 

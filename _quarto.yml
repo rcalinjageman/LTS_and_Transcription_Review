@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Transcriptional Regulation Underlying Long-term Sensitization in Aplysia"
+  author: "Robert J Calin-Jageman, Theresa Wilsterman, and Irina E. Calin-Jageman "
+  date: "11/10/2023"
+  doi: "10.31219/osf.io/urxk2"
+  note: "This is a preprint; The final article is available at in the Oxford Research Encyclopedia of Neuroscience: https://oxfordre.com/neuroscience "
+  chapters:
+    - index.qmd
+    - Background.qmd
+    - Induction.qmd
+    - Encoding.qmd
+    - Maintenance.qmd
+    - Conclusions.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: yeti
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
