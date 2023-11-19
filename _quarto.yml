@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Transcriptional Regulation Underlying Long-term Sensitization in Aplysia"
@@ -24,6 +25,8 @@ format:
     theme: yeti
   pdf:
     documentclass: scrreprt
+
+output-dir: docs
 
 editor: visual
 
