@@ -7,6 +7,7 @@ book:
   author: "Robert J Calin-Jageman, Theresa Wilsterman, and Irina E. Calin-Jageman "
   date: "11/10/2023"
   doi: "10.31219/osf.io/urxk2"
+  version: "1.3"
   note: "This is a preprint; The final article is available at in the Oxford Research Encyclopedia of Neuroscience: https://oxfordre.com/neuroscience "
   chapters:
     - index.qmd

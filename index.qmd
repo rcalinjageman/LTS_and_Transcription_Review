@@ -12,6 +12,18 @@ Many aspects of the induction, stabilization, and maintenance of sensitization m
 
 # Preprint {.unnumbered}
 
-This is a preprint of *"Transcriptional Regulation Underlying Long-term Sensitization in Aplysia"* by Robert J. Calin-Jageman, Theresa Wilsterman & Irina Calin-Jageman.
+This is a preprint posted to [PsyArxiv](https://osf.io/preprints/psyarxiv/), available for download at: <https://osf.io/urxk2/>. Please cite as:
+
+Wilsterman, T., Calin-Jageman, R., & Calin-Jageman, I. E. (2023, October 3). Transcriptional Regulation Underlying Long-term Sensitization in Aplysia. https://doi.org/10.31219/osf.io/urxk2
+
+This preprint was created using Quarto and RStudio. The underlying markdown documents are posted to [GitHub](https://github.com/rcalinjageman/LTS_and_Transcription_Review/tree/main), and an html version is available here: <https://rcalinjageman.github.io/LTS_and_Transcription_Review/>
 
 The final published article is available in the *Oxford Research Encyclopedia of Neuroscience:* <https://oxfordre.com/neuroscience> 
+
+# Version History {.unnumbered}
+
+-   Version 1.1 - Posted October 3 - Word version
+
+-   Version 1.2 - Posted November 18 - Pdf version after conversion to Quarto format. Still need to review for typos and check references. For pdf version, some
+
+-   Version 1.3 - Posted on November 19 - Fixed duplicated references and switched to APA7 citations

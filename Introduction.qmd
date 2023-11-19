@@ -1,5 +1,6 @@
 ---
 bibliography: references.bib
+csl: apa-7th-edition.csl
 ---
 
 # Introduction
